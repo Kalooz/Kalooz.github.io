@@ -1,4 +1,8 @@
 .kalooz-logo {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
     display: inline-block;
     border: 2px solid black;
     padding: 10px;

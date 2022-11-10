@@ -1,0 +1,34 @@
+.hero-banner {
+    display: flex;
+}
+
+.hero-banner__text-wrapper {
+    position: relative;
+    flex: 1;
+}
+
+.hero-banner__text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-banner__heading {
+    text-align: center;
+    font-size: 5rem;
+    margin: 0;
+    span {
+        font-size: 2rem;
+        display: block;
+    }
+}
+
+.hero-banner__sub-heading {
+    text-align: center;
+}
+
+.hero-banner__image {
+    flex: 1;
+    max-width: 50%;
+}
